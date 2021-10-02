@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
- * positive or negative
- * Return: Always 0 (Success)
+ * main - project printing numbers
+ *
+ * Return: 0
  */
 int main(void)
 {
