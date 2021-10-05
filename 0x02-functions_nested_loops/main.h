@@ -3,4 +3,4 @@
 
 int _putchar(char c);
 
-#endif /* _main_H_ */
+#endif
