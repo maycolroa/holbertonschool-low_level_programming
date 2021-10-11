@@ -4,7 +4,7 @@
 /**
   * print_line - print_
   *@n: int
-  *@i: int 2
+  *
   * Return: 0
   */
 void print_line(int n)
