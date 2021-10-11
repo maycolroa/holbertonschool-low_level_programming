@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  *reset_to_98 - print
- *
+ *@n: array
  *
  *Return: 0.
  */
