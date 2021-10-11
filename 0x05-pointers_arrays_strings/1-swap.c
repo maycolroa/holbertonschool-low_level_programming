@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *reset_to_98 - print
- *@n: array
- *
+ *swap_int - print a b i
+ *@a: array 1
+ *@b: array 2
  *Return: 0.
  */
 void swap_int(int *a, int *b)
