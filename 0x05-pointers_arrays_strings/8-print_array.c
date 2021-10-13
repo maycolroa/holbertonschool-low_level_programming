@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *puts_half - print half
+ *print_array - print element
  * @a: Array
  * @n: element number
  *Return: 0.
