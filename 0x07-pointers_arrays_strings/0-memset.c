@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_strcpy - print array
+ *_memset - print array
  * @s: Array 1
  * @b: array 2
  * @n: int
