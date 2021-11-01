@@ -4,7 +4,7 @@
  * main - Write a program that multiplies two numbers.
  * @argc: arg count.
  * @argv: arg vector.
- * Return: 0.
+ * Return: 1.
  */
 int main(int argc, char *argv[])
 {
@@ -24,5 +24,5 @@ else
 printf("%d\n", k);
 }
 
-return (0);
+return (1);
 }
