@@ -8,16 +8,20 @@
  */
 int main(int argc, char *argv[])
 {
-int i, j;
-i = j = 0;
-if (argc == 3)
+int i, j, k;
+
+if (argc != 3)
+{
+printf("Error\n");
+}
+
+else
 {
 i = atoi(argv[1]);
 j = atoi(argv[2]);
-printf("%d\n", i * j);
-return (0);
+k = i * j;
+
+printf("%d\n", k);
 }
-else
-printf("Error\n");
-return (1);
+return (0);
 }
