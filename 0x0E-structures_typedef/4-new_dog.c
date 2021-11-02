@@ -1,7 +1,7 @@
 #include "dog.h"
 #include <stdlib.h>
 /**
-  * new_dog - new
+  * new_dog - creates a new dog.
   * @name: struct name
   * @age: struct age
   * @owner: struct owner
