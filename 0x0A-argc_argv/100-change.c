@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - program that adds positive numbers.
+ * main - program that prints the minimum number of coins 
  * @argc: arg count.
  * @argv: arg vector.
  * Return: 0.
