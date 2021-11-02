@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - program that prints the minimum number of coins 
+ * main - program that prints the minimum number of coins
  * @argc: arg count.
  * @argv: arg vector.
  * Return: 0.
@@ -18,7 +18,7 @@ int exchange;
 		return (1);
 	}
 	exchange = atoi(argv[1]);
-	for  ( exchange = atoi(argv[1]); exchange > 0; currency++)
+	for (exchange = atoi(argv[1]); exchange > 0; currency++)
 	{
 		if (exchange >= 25)
 			exchange = exchange - 25;
