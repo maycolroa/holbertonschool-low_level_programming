@@ -2,6 +2,7 @@
 #define MAIN_H_
 #include <unistd.h>
 #include <stdio.h>
-int main(int argc, char **argv);
-int main(int argc, char *argv[]);
+#include <ctype.h>
+#include <stdlib.h>
+int _putchar(char c);
 #endif
