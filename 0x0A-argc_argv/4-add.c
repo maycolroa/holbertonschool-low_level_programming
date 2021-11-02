@@ -7,10 +7,10 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, adi = 0;
-
-	if (argc < 1)
-		return (0);
+int i, adi = 0;
+if (argc < 1)
+if (*argv == NULL)
+return (0);
 i = 1;
 	while (i < argc)
 	{
