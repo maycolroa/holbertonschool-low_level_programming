@@ -6,8 +6,6 @@
   */
 void print_name(char *name, void (*f)(char *))
 {
-if (name != NULL)
-if (f != NULL)
-if (*name != '\0')
-(*f)(name);
+if (name != NULL && *name != '\0' && f != NULL)
+f(name);
 }
