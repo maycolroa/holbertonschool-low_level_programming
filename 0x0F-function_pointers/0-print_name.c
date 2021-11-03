@@ -7,8 +7,8 @@
 void print_name(char *name, void (*f)(char *))
 {
 if (name != NULL)
-return;
+return (0);
 if (f != NULL)
-return;
+return (0);
 (*f)(name);
 }
