@@ -11,4 +11,3 @@ if (f != NULL)
 if (*name != '\0')
 (*f)(name);
 }
-
