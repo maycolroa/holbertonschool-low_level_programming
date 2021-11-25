@@ -7,11 +7,10 @@
   **/
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-  	int fl, tl, rd;
-	char BUF[BUFSIZE];
-
-	if (filename == NULL)
-		return (0);
+int fl, tl, rd;
+char BUF[BUFSIZE];
+if (filename == NULL)
+	return (0);
 	fl = open(filename, O_RDONLY);
 	if (fl == -1)
 		return (0);
