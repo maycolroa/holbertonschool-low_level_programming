@@ -11,22 +11,22 @@ int fl, tl, rd;
 char BUF[BUFSIZE];
 
 if (filename == NULL)
-	return (0);
-	fl = open(filename, O_RDONLY);
-	if (fl == -1)
-		return (0);
-	tl = 0;
-	rd = 1;
-	while (letters > BUFSIZE && rd != 0)
-	{
-		rd = read(fl, BUF, BUFSIZE);
-		write(STDOUT_FILENO, BUF, rd);
-		tl += rd;
-		letters -= BUFSIZE;
-	}
-	rd = read(fl, BUF, letters);
+return (0);
+fl = open(filename, O_RDONLY);
+if (fl == -1)
+return (0);
+tl = 0;
+rd = 1;
+while (letters > BUFSIZE && rd != 0)
+{
+rd = read(fl, BUF, BUFSIZE);
+write(STDOUT_FILENO, BUF, rd);
+tl += rd;
+letters -= BUFSIZE;
+}
+rd = read(fl, BUF, letters);
 	write(STDOUT_FILENO, BUF, rd);
-	tl += rd;
-	close(fl);
-	return (tl);
+tl += rd;
+close(fl);
+return (tl);
 }
