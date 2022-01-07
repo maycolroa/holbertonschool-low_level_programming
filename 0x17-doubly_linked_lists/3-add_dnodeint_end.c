@@ -1,13 +1,13 @@
 #include "lists.h"
 
 /**
- * add_dnodeint_end - adds a new node
- * @head: pointer to pointer
- * @n: node
- * Return: address of the new element or NULL if it fails
+ * add_dnodeint_end - Adds a new node
+ * @head: Double pointer.
+ * @n: node.
+ * Return: The address of the new element, or NULL if it failed.
  */
 
-listint_t *add_dnodeint_end(dlistint_t **head, const int n)
+dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *new_node, *list;
 
