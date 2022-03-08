@@ -2,7 +2,7 @@
 
 /**
  * hash_table_set - function that adds an element to the hash table
- * @ht: The hash table you want to add or update the key/value to.
+ * @ht: hash table
  * @key: key.
  * @value: value associated
  * Return: (1) (0)
