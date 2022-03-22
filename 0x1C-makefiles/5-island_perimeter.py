@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """Create a function def island_perimeter"""
 
 
@@ -14,4 +15,3 @@ def island_perimeter(grid):
                 if j - 1 >= 0 and grid[j - 1][k] == 1:
                     perimeter = perimeter - 2
     return (perimeter)
-    
